@@ -1,0 +1,30 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.index{
+  padding:33px;
+}
+table{
+  width:80%;
+  margin:10px;
+}
+th{
+  padding-bottom:5px;
+  display:table-cell;
+  vertical-align:inherit;
+  font-weight:bold;
+  text-align:center;
+}
+td{
+  padding-right:5px;
+}
+.new{
+  margin:10px 0;
+}
+.input{
+  margin-bottom:20px;
+}
+.link{
+  text-align:center;
+  font-size:12px;
+}
