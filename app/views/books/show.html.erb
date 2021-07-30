@@ -1,4 +1,7 @@
 <div class="content">
+    <% if flash[:notice] %>
+        <%= flash[:notice] %>
+    <% end %>
     <p>
         Title:<%= @book.title%>
     </p>
